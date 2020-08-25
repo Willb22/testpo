@@ -29,4 +29,4 @@ if response.ok:
             author["name"] = liste_column[0].find("a").text
             #author["name"] = liste_column[0].find("a").text.replace('\n', '')
             author["speciality"] = liste_column[4].text.replace('\n', '')
-            print(author)
+            #print(author)
