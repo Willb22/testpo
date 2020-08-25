@@ -11,7 +11,7 @@ if response.ok:
         tds = tr.findAll("td")
         if len(tds) > 0:
             print(tds[0].find("a").text)
-            print(tds[4].text)
+            #print(tds[4].text)
 
 
 
